@@ -1,0 +1,145 @@
+*{
+  margin: 0px;padding: 0px;
+}
+/* header */
+.container{
+  width: 100%;
+  background: -webkit-linear-gradient(left,#dd1c20 0%,#b7020f 50%, #a1000d 100%);
+  height: 7rem;
+ 
+}
+.content{
+  width: 990px;
+  height: 7rem;
+  margin: 0 auto; 
+}
+.logo{
+  float: left;
+  position: relative;
+  top: 8px;
+}
+.search{
+  position: relative;
+  width: 430px;
+  height: 8rem;
+  float: left;
+  margin-left: 69px;
+}
+.login{
+  float: right;
+}
+.login a {
+  padding: 6.1px;
+  color:#fff;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.login a label:hover{
+  cursor: pointer;
+}
+.login a:hover {
+  border-radius: 3%;
+  background: rgba(0,0,0,0.3)
+}
+.login a img{
+  line-height: 28px;
+  vertical-align: bottom;
+  width: 20px;
+  margin-top: 55px; 
+}
+.input_txt{
+  position: absolute;
+  top:46px;
+  width: 326px;
+  height: 16px;
+  padding: 8px;
+  border: 2px solid #fff;
+  border-top-left-radius:1%; 
+  border-bottom-left-radius:1%; 
+}
+.input_btn{
+  position: absolute;
+  top:46px;
+  left: 344px;
+  width: 80px;
+  height: 36px;
+  font-size: 14px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-top-right-radius: 4%;
+  border-bottom-right-radius: 4%;
+  background: #a8000f;
+}
+.input_btn:hover{
+  background: #890511;
+}
+/* 导航栏*/
+.nav{
+  width: 100%;
+  height: 76px;
+  background-color:#fff; 
+  box-shadow: 10px 0px 10px rgba(0,0,0,0.3);
+  position:relative;
+  z-index:2000;
+}
+.nav #main_nav{
+  clear: both;
+  height: 76px;
+  width: 990px;
+  margin: 0 auto;
+  line-height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav #main_nav li{
+  height: 60px;
+}
+.nav #main_nav li a{
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Microsoft Yahei,黑体;
+  text-decoration: none;
+  position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 29px;
+  padding-bottom: 23px;
+}
+.nav #main_nav>li>a:hover{
+  background: #ff0;
+}
+.nav #main_nav li .first{
+  width: 100%;
+  position: absolute;
+  display: none;
+}
+.nav #main_nav li a img{
+  vertical-align: top;
+  width: 20px;
+}
+/* 导航栏下拉 */
+.first>div{
+  position:absolute;
+  left: -88px;
+  top:9.5px;
+  width:990px;
+  clear: both;
+  background: #fff;
+}
+.nav #main_nav>li:hover div{
+  display: block;
+}
+.first_nav dl{
+  display: flex;
+  justify-content:space-around;
+}
+.nav #main_nav>li .first .first_nav dl dt a{
+  font-size: 20px;
+}
+.nav #main_nav>li .first .first_nav dl a {
+  padding: 0;
+  font-size: 12px;
+}
