@@ -132,14 +132,36 @@
 .nav #main_nav>li:hover div{
   display: block;
 }
-.first_nav dl{
-  display: flex;
-  justify-content:space-around;
+.first_nav dl>dt{
+  height: 30px;
+}
+.first_nav dl:nth-child(2){
+  margin-left: 0;
+}
+.first_nav dl dd {
+  float: left;
+  margin-left:22px; 
+}
+#margin{
+  margin-left: 0px;
 }
 .nav #main_nav>li .first .first_nav dl dt a{
   font-size: 20px;
 }
+.nav #main_nav>li .first .first_nav dl dt a:first-child{
+  font-family: Microsoft Yahei,黑体;
+  font-size: 17px;
+  color: #ff3232;
+}
 .nav #main_nav>li .first .first_nav dl a {
-  padding: 0;
+  padding: 0; 
+  color: #999;
   font-size: 12px;
+}
+.nav #main_nav>li .first .first_nav dl dt a:hover,.nav #main_nav>li .first .first_nav dl a:hover{
+  color: #fff;
+  background: #ff3232;
+}
+.nav #main_nav li .first  #clear{
+  clear: both;
 }
