@@ -2,16 +2,346 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>我的个人简历</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/base.css">
+  <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <h3>我的个人简历</h3>
-  </div>
+  <header>
+      <div class="container">
+        <div class="content">
+          <div class="logo">
+            <a href=""><img src="img/logo.png" alt="" srcset=""></a> 
+          </div>
+          <div class="search">
+            <input type="text" placeholder="请输入菜谱/食材/菜单/作者" class="input_txt"><button class="input_btn">搜索</button>
+          </div>
+          <div class="login">
+            <a href="#">
+              <label><img src="img/qq.png" alt="" srcset="">QQ登录</label>
+            </a>
+            <a href="#">
+              <label><img src="img/wb.png" alt="" srcset="">微博登录</label>
+            </a>
+            <a href="">注册</a>
+            <a href="">登录</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <ul class="main_nav">
+          <li class="strong">
+            <a href="#">
+              <strong>首页</strong>
+            </a>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>菜谱大全</strong>
+            </a>
+            <div class="nav_first">
+              <div class="first_a">
+                <a href="#">家常菜谱</a>
+                <ul class="first_ul">
+                  <li><a href="#">家常菜</a></li>
+                  <li><a href="#">凉菜</a></li>
+                  <li><a href="#">素食</a></li>
+                  <li><a href="#">晚餐</a></li>
+                  <li><a href="#">私家菜</a></li>
+                  <li><a href="#">热菜</a></li>
+                  <li><a href="#">海鲜</a></li>
+                  <li><a href="#">孕妇</a></li>
+                  <li><a href="#">早餐</a></li>
+                  <li><a href="#">午餐</a></li>
+                  <li><a href="#">甜品点心</a></li>
+                  <li><a href="#">汤粥</a></li>
+                  <li><a href="#">宝宝食谱-婴儿食谱</a></li>
+                  <li><a href="#">糕点主食</a></li>
+                  <li><a href="#">微波炉</a></li>
+                </ul>
+              </div>
+              <div class="first_b">
+                <a href="#">中华菜系</a>
+                <ul class="first_ul">
+                  <li><a href="#">川菜</a></li>
+                  <li><a href="#">粤菜</a></li>
+                  <li><a href="#">东北菜</a></li>
+                  <li><a href="#">湘菜</a></li>
+                  <li><a href="#">鲁菜</a></li>
+                  <li><a href="#">浙菜</a></li>
+                  <li><a href="#">湖北菜</a></li>
+                  <li><a href="#">清真菜</a></li>
+                </ul>
+              </div>
+              <div class="first_b first_c">
+                <a href="#">各地小吃</a>
+                <ul class="first_ul">
+                  <li><a href="#">四川小吃</a></li>
+                  <li><a href="#">广东小吃</a></li>
+                  <li><a href="#">北京小吃</a></li>
+                  <li><a href="#">陕西小吃</a></li>
+                </ul>
+              </div>
+              <br>
+              <div class="first_d">
+                <a href="#">外国菜谱</a>
+                <ul class="first_ul">
+                  <li><a href="#">韩国料理</a></li>
+                  <li><a href="#">日本料理</a></li>
+                  <li><a href="#">法国菜</a></li>
+                  <li><a href="#">意大利餐</a></li>
+                </ul>
+              </div>
+              <div class="first_e">
+                <a href="#">烘焙</a>
+                <ul class="first_ul">
+                  <li><a href="#">蛋糕面包</a></li>
+                  <li><a href="#">饼干配方</a></li>
+                  <li><a href="#">甜品点心</a></li>
+                </ul>
+              </div>
+              <div class="first_d">
+                <a href="#">厨房百科</a>
+                <ul class="first_ul">
+                  <li><a href="#">摆盘围边</a></li>
+                  <li><a href="#">烹饪技巧</a></li>
+                  <li><a href="#">生活妙招</a></li>
+                  <li><a href="#">美食专题</a></li>
+                </ul>
+              </div>
+              <div class="first_f">
+                <a href="#">食材百科</a>
+                <ul class="first_ul">
+                  <li><a href="#">蔬菜</a></li>
+                  <li><a href="#">水果</a></li>
+                  <li><a href="#">谷类</a></li>
+                </ul>
+              </div>
+              <div id="img_first"></div>
+            </div>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>饮食健康</strong>
+            </a>
+            <div class="nav_last">
+              <div class="first_a">
+                <a href="#">饮食健康</a>
+                <ul class="first_ul">
+                  <li><a href="#">饮食小常识</a></li>
+                  <li><a href="#">美容瘦身</a></li>
+                  <li><a href="#">食品安全</a></li>
+                  <li><a href="#">养生妙方</a></li>
+                  <li><a href="#">饮食禁忌</a></li>
+                  <li><a href="#">中医保健</a></li>
+                  <li><a href="#">母婴健康饮食</a></li>
+                  <li><a href="#">饮食新闻</a></li>
+                </ul>
+              </div>
+              <div class="first_b">
+                <a href="#">功能性调理</a>
+                <ul class="first_ul">
+                  <li><a href="#">清热去火</a></li>
+                  <li><a href="#">减肥</a></li>
+                  <li><a href="#">祛痰</a></li>
+                  <li><a href="#">乌发</a></li>
+                  <li><a href="#">滋阴补肾</a></li>
+                  <li><a href="#">健脾开胃</a></li>
+                  <li><a href="#">消化不良</a></li>
+                  <li><a href="#">清热解毒</a></li>
+                  <li><a href="#">补阳壮阳</a></li>
+                  <li><a href="#">增肥</a></li>
+                </ul>
+              </div>
+              <div class="first_d">
+                <a href="#">人群膳食</a>
+                <ul class="first_ul">
+                  <li><a href="#">孕妇</a></li>
+                  <li><a href="#">老人</a></li>
+                  <li><a href="#">产妇</a></li>
+                  <li><a href="#">哺乳期</a></li>
+                  <li><a href="#">青少年</a></li>
+                  <li><a href="#">幼儿</a></li>
+                  <li><a href="#">学龄期儿童</a></li>
+                </ul>
+              </div>
+              <div class="first_g">
+                <a href="#">疾病调理</a>
+                <ul class="first_ul">
+                  <li><a href="#">糖尿病</a></li>
+                  <li><a href="#">高血压</a></li>
+                  <li><a href="#">痛风</a></li>
+                  <li><a href="#">胃炎</a></li>
+                  <li><a href="#">痔疮</a></li>
+                  <li><a href="#">更年期</a></li>
+                  <li><a href="#">甲状腺</a></li>
+                </ul>
+              </div>
+              <div class="first_d">
+                <a href="#">脏腑调理</a>
+                <ul class="first_ul">
+                  <li><a href="#">感冒</a></li>
+                  <li><a href="#">补肾</a></li>
+                  <li><a href="#">阳痿早泄</a></li>
+                  <li><a href="#">补血</a></li>
+                  <li><a href="#">便秘</a></li>
+                  <li><a href="#">腹泻</a></li>
+                  <li><a href="#">活血化瘀</a></li>
+                </ul>
+              </div>
+              <div id="img_last"></div>
+            </div>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>美食菜单</strong>
+            </a>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>家居馆</strong>
+            </a>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>美食达人</strong>
+              <img src="img/nav.png" alt="" srcset="" class="imgs">
+            </a>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>菜谱视频</strong>
+            </a>
+          </li>
+          <li class="strong">
+            <a href="#">
+              <strong>手机版下载</strong>
+            </a>
+          </li>  
+        </ul>
+      </div>
+  </header>
+  <section>
+    
+  </section>
+  <footer>
+      <div class="mian_footer">
+        <div class="footer_con1">
+          <p class="text">
+            <a href="#" class="footer_homelink"></a>
+            中国，最大的菜谱库
+            <strong> 800,000 篇</strong>
+            <br>
+            每月，用户访问数量
+            <strong> 20,000,000 次</strong>
+            <br>      
+            每年，菜谱被浏览量
+            <strong> 36,000,000,000 次</strong>
+            <br> 
+            现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰
+          </p>
+          <div class="links">
+            <ul class="links_ul">
+              <li class="links_sina">
+                <a href="#" target="_blank" class="img">
+                  <span>关注：49万</span>
+                </a>
+                <p>
+                  <a href="#">
+                    点击进入
+                    <br>
+                    美食节官方微博
+                  </a>
+                </p>
+              </li>
+              <li class="links_tengxun">
+                <a href="#" target="_blank" class="img">
+                  <span>关注：10.9万</span>
+                </a>
+                <p>
+                  <a href="#">
+                    点击进入
+                    <br>
+                    美食杰QQ空间
+                  </a>
+                </p>
+              </li>
+              <li class="links_weixin">
+                <a href="#" target="_blank" class="img"></a>
+                <p>
+                  <a href="#">
+                    扫描二维码添加
+                    <br>
+                    小易为微信好友
+                  </a>
+                </p>
+              </li>
+              <li class="links_QQ">
+                <a href="#" target="_blank" class="img"></a>
+                <p>
+                  <a href="#">
+                    扫描二维码添加
+                    <br>
+                    小易为QQ好友
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_con2">
+          <div class="footer_item">
+            <a href="#">友情链接</a>
+            <ul class="friend_link">
+              <li><a target="_blank" href="#" title="美食">美食</a></li>      
+              <li><a target="_blank" href="#" title="体质测试">体质测试</a></li>    
+              <li><a target="_blank" href="#" title="伊特">伊特</a></li>      
+              <li><a target="_blank" href="#" title="大粤网美食">大粤网美食</a></li>      
+              <li><a target="_blank" href="#" title="9酷音乐网">9酷音乐网</a></li>
+              <li><a target="_blank" href="#" title="爱奇艺生活">爱奇艺生活</a></li>       
+              <li><a target="_blank" href="#" title="365音乐网">365音乐网</a></li>  <li><a target="_blank" href="#" title="图吧">图吧</a></li>       
+              <li><a target="_blank" href="#" title="汽车论坛">汽车论坛</a></li>   
+              <li><a target="_blank" href="#" title="39健康饮食">39健康饮食</a></li>       
+              <li><a target="_blank" href="#" title="QQ下载">QQ下载</a></li>       
+              <li><a target="_blank" href="#" title="家具网">家具网</a></li>       
+              <li><a target="_blank" href="#" title="搜狐美食">搜狐美食</a></li>  
+              <li><a target="_blank" href="#" title="美食天下">美食天下</a></li>
+              <li><a target="_blank" href="#" title="中华美食网">中华美食网</a></li>       
+              <li><a target="_blank" href="#" title="重庆公交网">重庆公交网</a></li>       
+              <li><a target="_blank" href="#" title="苹果园">苹果园</a></li>       
+              <li><a target="_blank" href="#" title="红餐微杂志">红餐微杂志</a></li>       
+              <li><a target="_blank" href="#" title="北京搜房网">北京搜房网</a></li>       
+              <li><a target="_blank" href="#" title="更多友情链接">更多友情链接</a></li>       
+            </ul>
+          </div>
+        </div>
+        <div class="footer_con3">
+          <ul >
+            <li><a target="_blank" href="#" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="#" title="企业文化">企业文化</a></li>
+            <li><a target="_blank" href="#" title="公司动态">公司动态</a></li>
+            <li><a target="_blank" href="#" title="免责声明">免责声明</a></li>
+            <li><a target="_blank" href="#" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="#" title="招贤纳士">招贤纳士</a></li>
+            <li><a target="_blank" href="#" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="#" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="#" title="友情链接">友情链接</a></li>
+            <li><a target="_blank" href="#" title="美食杰移动APP">美食杰移动APP</a></li>
+          </ul>
+          <p>
+            <a target="_blank" href="#" class="gray_a">渝ICP备15826471号</a>
+            /
+            <a target="_blank" href="#" class="gray_a">
+              <img src="img/footer_beian.png" alt="" srcset="">
+              渝公网安备15826471718961 
+            </a>
+            Copyright &copy; 2018-2038 MEISHIJ CO.,LTD.
+          </p>
+        </div>
+      </div>
+  </footer> 
 </body>
 </html>
